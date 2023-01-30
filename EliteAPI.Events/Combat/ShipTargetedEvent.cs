@@ -41,6 +41,9 @@ public readonly struct ShipTargetedEvent : IEvent
     [JsonProperty("Faction")]
     public string Faction { get; init; }
 
+    [JsonProperty("Bounty")]
+    public long Bounty { get; init; }
+
     [JsonProperty("Subsystem")]
     public Localised Subsystem { get; init; }
 
